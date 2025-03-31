@@ -6,6 +6,13 @@ YOLOv3 Aimbot
 
 使用說明：下載程式後直接執行CSGO.EXE即可於遊戲中使用，按下Ctrl+Q啟動描準功能，按下Ctrl+W關閉描準功能。
 
+![螢幕擷取畫面 2025-03-31 204455](https://github.com/user-attachments/assets/1f146029-6051-4180-b9ef-27d3a18cb499)
+
+![螢幕擷取畫面 2025-03-31 204541](https://github.com/user-attachments/assets/74cf2378-04b6-4d77-9271-e460ff12ba82)
+
+![螢幕擷取畫面 2025-03-31 204621](https://github.com/user-attachments/assets/51d01a1b-ff35-4dfb-9d37-3cd4ed85411f)
+
+
 項目概述 / Project Overview
 這個項目是一個基於 YOLOv3 的自動描準程式（Aimbot），利用實時螢幕截圖和目標檢測技術，識別螢幕中的“人”並控制滑鼠移動和點擊。程式支援 1080p (1920x1080) 和 4K (3840x2160) 解析度的顯示器，並可通過快捷鍵啟動或關閉描準功能。
 
