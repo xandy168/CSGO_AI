@@ -1,34 +1,36 @@
 YOLOv3 Aimbot
 
-³nÅé¼¶¼g XANDY @ 2025/03/31 / ÁpÃ´¤è¦¡  Contact : xandy168@gmail.com 
+è»Ÿé«”æ’°å¯« XANDY @ 2025/03/31 / è¯ç¹«æ–¹å¼  Contact : xandy168@gmail.com 
 
-¨Ï¥Î»¡©ú¡G¤U¸üµ{¦¡«áª½±µ°õ¦æCSGO.EXE§Y¥i©ó¹CÀ¸¤¤¨Ï¥Î¡A«ö¤UCtrl+Q±Ò°Ê´y·Ç¥\¯à¡A«ö¤UCtrl+WÃö³¬´y·Ç¥\¯à¡C
+æºä»£ç¢¼&åŸ·è¡Œæª”ä¸‹è¼‰ï¼šhttps://1drv.ms/f/c/2a09a0ec12e1b46d/EmGdKxHxmO9MqpfHHQM4OugBO0_4Ully5dcgEErOwDDdgg?e=2TGX0T
 
-¶µ¥Ø·§­z / Project Overview
-³o­Ó¶µ¥Ø¬O¤@­Ó°ò©ó YOLOv3 ªº¦Û°Ê´y·Çµ{¦¡¡]Aimbot¡^¡A§Q¥Î¹ê®É¿Ã¹õºI¹Ï©M¥Ø¼ĞÀË´ú§Ş³N¡AÃÑ§O¿Ã¹õ¤¤ªº¡§¤H¡¨¨Ã±±¨î·Æ¹«²¾°Ê©MÂIÀ»¡Cµ{¦¡¤ä´© 1080p (1920x1080) ©M 4K (3840x2160) ¸ÑªR«×ªºÅã¥Ü¾¹¡A¨Ã¥i³q¹L§Ö±¶Áä±Ò°Ê©ÎÃö³¬´y·Ç¥\¯à¡C
+ä½¿ç”¨èªªæ˜ï¼šä¸‹è¼‰ç¨‹å¼å¾Œç›´æ¥åŸ·è¡ŒCSGO.EXEå³å¯æ–¼éŠæˆ²ä¸­ä½¿ç”¨ï¼ŒæŒ‰ä¸‹Ctrl+Qå•Ÿå‹•ææº–åŠŸèƒ½ï¼ŒæŒ‰ä¸‹Ctrl+Wé—œé–‰ææº–åŠŸèƒ½ã€‚
+
+é …ç›®æ¦‚è¿° / Project Overview
+é€™å€‹é …ç›®æ˜¯ä¸€å€‹åŸºæ–¼ YOLOv3 çš„è‡ªå‹•ææº–ç¨‹å¼ï¼ˆAimbotï¼‰ï¼Œåˆ©ç”¨å¯¦æ™‚è¢å¹•æˆªåœ–å’Œç›®æ¨™æª¢æ¸¬æŠ€è¡“ï¼Œè­˜åˆ¥è¢å¹•ä¸­çš„â€œäººâ€ä¸¦æ§åˆ¶æ»‘é¼ ç§»å‹•å’Œé»æ“Šã€‚ç¨‹å¼æ”¯æ´ 1080p (1920x1080) å’Œ 4K (3840x2160) è§£æåº¦çš„é¡¯ç¤ºå™¨ï¼Œä¸¦å¯é€šéå¿«æ·éµå•Ÿå‹•æˆ–é—œé–‰ææº–åŠŸèƒ½ã€‚
 
 This project is an automatic aiming program (Aimbot) based on YOLOv3. It uses real-time screen capture and object detection to identify "people" on the screen and control mouse movement and clicks. The program supports 1080p (1920x1080) and 4K (3840x2160) resolution displays, with the ability to enable or disable the aimbot via hotkeys.
 
-¥\¯à / Features
-¥Ø¼ĞÀË´ú¡G¨Ï¥Î YOLOv3 ¼Ò«¬ÀË´ú¿Ã¹õ¤¤ªº¡§¤H¡¨¡C
-¦Û°Ê´y·Ç¡G±N·Æ¹«²¾°Ê¨ìÀË´ú¨ìªº¥Ø¼Ğ¤¤¤ß¨Ã¼ÒÀÀÂIÀ»¡C
-§Ö±¶Áä±±¨î¡GCtrl+Q ±Ò°Ê´y·Ç¡ACtrl+W Ãö³¬´y·Ç¡C
-¸ÑªR«×¤ä´©¡G¾A°t 1080p ©M 4K Åã¥Ü¾¹¡A¨Ã¤ä´©¨ä¥L«D¼Ğ·Ç¸ÑªR«×¡C
-®É¶¡¤é»x¡GÅã¥Ü·Æ¹«²¾°Ê©MÂIÀ»ªº°õ¦æ®É¶¡¡C
+åŠŸèƒ½ / Features
+ç›®æ¨™æª¢æ¸¬ï¼šä½¿ç”¨ YOLOv3 æ¨¡å‹æª¢æ¸¬è¢å¹•ä¸­çš„â€œäººâ€ã€‚
+è‡ªå‹•ææº–ï¼šå°‡æ»‘é¼ ç§»å‹•åˆ°æª¢æ¸¬åˆ°çš„ç›®æ¨™ä¸­å¿ƒä¸¦æ¨¡æ“¬é»æ“Šã€‚
+å¿«æ·éµæ§åˆ¶ï¼šCtrl+Q å•Ÿå‹•ææº–ï¼ŒCtrl+W é—œé–‰ææº–ã€‚
+è§£æåº¦æ”¯æ´ï¼šé©é… 1080p å’Œ 4K é¡¯ç¤ºå™¨ï¼Œä¸¦æ”¯æ´å…¶ä»–éæ¨™æº–è§£æåº¦ã€‚
+æ™‚é–“æ—¥èªŒï¼šé¡¯ç¤ºæ»‘é¼ ç§»å‹•å’Œé»æ“Šçš„åŸ·è¡Œæ™‚é–“ã€‚
 Object Detection: Uses the YOLOv3 model to detect "people" on the screen.
 Auto-Aiming: Moves the mouse to the center of detected targets and simulates a click.
 Hotkey Control: Ctrl+Q to enable aiming, Ctrl+W to disable aiming.
 Resolution Support: Compatible with 1080p and 4K displays, with fallback for non-standard resolutions.
 Time Logging: Displays execution time for mouse movement and clicks.
-¨Ï¥Î»¡©ú / Usage Instructions
-±Ò°Êµ{¦¡¡G
-¹B¦æ python aimbot.py¡C
-µ{¦¡·|¦Û°ÊÀË´ú¿Ã¹õ¸ÑªR«×¨ÃÅã¥Ü·í«e¼Ò¦¡¡]1080p¡B4K ©ÎÀq»{¡^¡C
-±±¨î´y·Ç¡G
-«ö Ctrl+Q ±Ò°Ê´y·Ç¥\¯à¡C
-«ö Ctrl+W Ãö³¬´y·Ç¥\¯à¡C
-Æ[¹î¿é¥X¡G
-±±¨î¥x·|Åã¥Ü·Æ¹«²¾°Ê©MÂIÀ»ªº®É¶¡¡]¨Ò¦p¡G²¾°Ê®É¶¡: 0.012s, ÂIÀ»®É¶¡: 0.001s¡^¡C
+ä½¿ç”¨èªªæ˜ / Usage Instructions
+å•Ÿå‹•ç¨‹å¼ï¼š
+é‹è¡Œ python aimbot.pyã€‚
+ç¨‹å¼æœƒè‡ªå‹•æª¢æ¸¬è¢å¹•è§£æåº¦ä¸¦é¡¯ç¤ºç•¶å‰æ¨¡å¼ï¼ˆ1080pã€4K æˆ–é»˜èªï¼‰ã€‚
+æ§åˆ¶ææº–ï¼š
+æŒ‰ Ctrl+Q å•Ÿå‹•ææº–åŠŸèƒ½ã€‚
+æŒ‰ Ctrl+W é—œé–‰ææº–åŠŸèƒ½ã€‚
+è§€å¯Ÿè¼¸å‡ºï¼š
+æ§åˆ¶å°æœƒé¡¯ç¤ºæ»‘é¼ ç§»å‹•å’Œé»æ“Šçš„æ™‚é–“ï¼ˆä¾‹å¦‚ï¼šç§»å‹•æ™‚é–“: 0.012s, é»æ“Šæ™‚é–“: 0.001sï¼‰ã€‚
 Start the Program:
 Run python aimbot.py.
 The program will detect your screen resolution and display the current mode (1080p, 4K, or default).
@@ -37,49 +39,49 @@ Press Ctrl+Q to enable the aimbot.
 Press Ctrl+W to disable the aimbot.
 Monitor Output:
 The console will display the time taken for mouse movement and clicks (e.g., Move time: 0.012s, Click time: 0.001s).
-¦w¸Ë¨BÆJ / Installation Steps
-Àô¹Ò»İ¨D / Requirements
+å®‰è£æ­¥é©Ÿ / Installation Steps
+ç’°å¢ƒéœ€æ±‚ / Requirements
 Python 3.6+
-PyTorch¡]¤ä´© CUDA ¥i¿ï¡^
+PyTorchï¼ˆæ”¯æ´ CUDA å¯é¸ï¼‰
 OpenCV (opencv-python)
 PyAutoGUI (pyautogui)
 Pillow (pillow)
 Keyboard (keyboard)
 NumPy (numpy)
-¦w¸Ë¨Ì¿à / Install Dependencies
+å®‰è£ä¾è³´ / Install Dependencies
 bash
 
-¦¬°_
+æ”¶èµ·
 
-´«¦æ
+æ›è¡Œ
 
-½Æ»s
+è¤‡è£½
 pip install torch torchvision opencv-python pyautogui pillow keyboard numpy
-¤U¸ü YOLOv3 Åv­« / Download YOLOv3 Weights
-±q¥H¤U³sµ²¤U¸ü yolov3.weights¡G
-©x¤è¤U¸ü³sµ²
-±N¤å¥ó©ñ¸m¦b¶µ¥Ø®Ú¥Ø¿ı¡A©Î­×§ïµ{¦¡¤¤ªº weightsfile °Ñ¼Æ«ü¦V¥¿½T¸ô®|¡C
-·Ç³Æ°t¸m¤å¥ó / Prepare Configuration File
-½T«O cfg/yolov3.cfg ¤å¥ó¦s¦b©ó¶µ¥Ø¥Ø¿ı¤¤¡C­YµL¡A¥i±q YOLO ©x¤èºô¯¸ ¤U¸ü¡C
-¹B¦æµ{¦¡ / Run the Program
+ä¸‹è¼‰ YOLOv3 æ¬Šé‡ / Download YOLOv3 Weights
+å¾ä»¥ä¸‹é€£çµä¸‹è¼‰ yolov3.weightsï¼š
+å®˜æ–¹ä¸‹è¼‰é€£çµ
+å°‡æ–‡ä»¶æ”¾ç½®åœ¨é …ç›®æ ¹ç›®éŒ„ï¼Œæˆ–ä¿®æ”¹ç¨‹å¼ä¸­çš„ weightsfile åƒæ•¸æŒ‡å‘æ­£ç¢ºè·¯å¾‘ã€‚
+æº–å‚™é…ç½®æ–‡ä»¶ / Prepare Configuration File
+ç¢ºä¿ cfg/yolov3.cfg æ–‡ä»¶å­˜åœ¨æ–¼é …ç›®ç›®éŒ„ä¸­ã€‚è‹¥ç„¡ï¼Œå¯å¾ YOLO å®˜æ–¹ç¶²ç«™ ä¸‹è¼‰ã€‚
+é‹è¡Œç¨‹å¼ / Run the Program
 bash
 
-¦¬°_
+æ”¶èµ·
 
-´«¦æ
+æ›è¡Œ
 
-½Æ»s
+è¤‡è£½
 python aimbot.py
-ª`·N¨Æ¶µ / Notes
-µwÅé»İ¨D¡G
-4K ¸ÑªR«×»İ­n¸û°ªªº­pºâ¯à¤O¡A«ØÄ³¨Ï¥Î GPU¡]CUDA ¤ä´©¡^¡C
-½T«OÅã¥Ü¾¹¸ÑªR«×¥¿½TÀË´ú¡AÁ×§KºI¹Ï½d³ò¶W¥X¿Ã¹õ¡C
-·Æ¹«ÁY©ñ«Y¼Æ¡G
-1080p ¨Ï¥Î 1.56¡A4K ¨Ï¥Î 3.12¡C­Y´y·Ç¤£·Ç½T¡A¥i®Ú¾Ú¹ê»Ú»İ¨D½Õ¾ã mouse_scale_factor¡C
-¨Ì¿à¤å¥ó¡G
-µ{¦¡°²³] util.py ©M darknet.py ¤w¹ê²{¨Ã¥]§t¥²­nªº¨ç¼Æ¡]prep_image ©M write_results¡^¡C­Y¯Ê¤Ö³o¨Ç¤å¥ó¡A»İ¦Û¦æ¹ê²{©Î±q YOLOv3 ©x¤è¹ê²{¤¤Àò¨ú¡C
-ªk«ß»P¹D¼w¡G
-¥»µ{¦¡¶È¥Î©ó¾Ç²ß©M¬ã¨s¥Øªº¡C½Ğ¤Å¦b¹CÀ¸©Î¨ä¥L¥¼¸g±ÂÅvªºÀô¹Ò¤¤¨Ï¥Î¡A¥H§K¹H¤Ï¬ÛÃö³W©w¡C
+æ³¨æ„äº‹é … / Notes
+ç¡¬é«”éœ€æ±‚ï¼š
+4K è§£æåº¦éœ€è¦è¼ƒé«˜çš„è¨ˆç®—èƒ½åŠ›ï¼Œå»ºè­°ä½¿ç”¨ GPUï¼ˆCUDA æ”¯æ´ï¼‰ã€‚
+ç¢ºä¿é¡¯ç¤ºå™¨è§£æåº¦æ­£ç¢ºæª¢æ¸¬ï¼Œé¿å…æˆªåœ–ç¯„åœè¶…å‡ºè¢å¹•ã€‚
+æ»‘é¼ ç¸®æ”¾ä¿‚æ•¸ï¼š
+1080p ä½¿ç”¨ 1.56ï¼Œ4K ä½¿ç”¨ 3.12ã€‚è‹¥ææº–ä¸æº–ç¢ºï¼Œå¯æ ¹æ“šå¯¦éš›éœ€æ±‚èª¿æ•´ mouse_scale_factorã€‚
+ä¾è³´æ–‡ä»¶ï¼š
+ç¨‹å¼å‡è¨­ util.py å’Œ darknet.py å·²å¯¦ç¾ä¸¦åŒ…å«å¿…è¦çš„å‡½æ•¸ï¼ˆprep_image å’Œ write_resultsï¼‰ã€‚è‹¥ç¼ºå°‘é€™äº›æ–‡ä»¶ï¼Œéœ€è‡ªè¡Œå¯¦ç¾æˆ–å¾ YOLOv3 å®˜æ–¹å¯¦ç¾ä¸­ç²å–ã€‚
+æ³•å¾‹èˆ‡é“å¾·ï¼š
+æœ¬ç¨‹å¼åƒ…ç”¨æ–¼å­¸ç¿’å’Œç ”ç©¶ç›®çš„ã€‚è«‹å‹¿åœ¨éŠæˆ²æˆ–å…¶ä»–æœªç¶“æˆæ¬Šçš„ç’°å¢ƒä¸­ä½¿ç”¨ï¼Œä»¥å…é•åç›¸é—œè¦å®šã€‚
 Hardware Requirements:
 4K resolution requires higher computational power; a GPU with CUDA support is recommended.
 Ensure the screen resolution is detected correctly to avoid capturing beyond the screen boundaries.
@@ -89,23 +91,23 @@ Dependent Files:
 The program assumes util.py and darknet.py are implemented with required functions (prep_image and write_results). If missing, implement them or obtain from the official YOLOv3 repository.
 Legal and Ethical Considerations:
 This program is for educational and research purposes only. Do not use it in games or unauthorized environments to avoid violating regulations.
-µ{¦¡µ²ºc / Project Structure
+ç¨‹å¼çµæ§‹ / Project Structure
 text
 
-¦¬°_
+æ”¶èµ·
 
-´«¦æ
+æ›è¡Œ
 
-½Æ»s
+è¤‡è£½
 aimbot/
-¢u¢w¢w aimbot.py         # ¥Dµ{¦¡
-¢u¢w¢w cfg/
-¢x   ¢|¢w¢w yolov3.cfg   # YOLOv3 °t¸m¤å¥ó
-¢u¢w¢w yolov3.weights   # YOLOv3 Åv­«¤å¥ó
-¢u¢w¢w util.py          # ¤u¨ã¨ç¼Æ¡]»İ¦Û¦æ¹ê²{¡^
-¢u¢w¢w darknet.py       # Darknet ¼Ò«¬¹ê²{¡]»İ¦Û¦æ¹ê²{¡^
-¢|¢w¢w README.md        # ¥»»¡©ú¤å¥ó
-ÁpÃ´¤è¦¡ / Contact : xandy168@gmail.com 
-¦p¦³°İÃD©Î«ØÄ³¡A½Ğ³q¹L GitHub Issues ÁpÃ´¡C
+â”œâ”€â”€ aimbot.py         # ä¸»ç¨‹å¼
+â”œâ”€â”€ cfg/
+â”‚   â””â”€â”€ yolov3.cfg   # YOLOv3 é…ç½®æ–‡ä»¶
+â”œâ”€â”€ yolov3.weights   # YOLOv3 æ¬Šé‡æ–‡ä»¶
+â”œâ”€â”€ util.py          # å·¥å…·å‡½æ•¸ï¼ˆéœ€è‡ªè¡Œå¯¦ç¾ï¼‰
+â”œâ”€â”€ darknet.py       # Darknet æ¨¡å‹å¯¦ç¾ï¼ˆéœ€è‡ªè¡Œå¯¦ç¾ï¼‰
+â””â”€â”€ README.md        # æœ¬èªªæ˜æ–‡ä»¶
+è¯ç¹«æ–¹å¼ / Contact : xandy168@gmail.com 
+å¦‚æœ‰å•é¡Œæˆ–å»ºè­°ï¼Œè«‹é€šé GitHub Issues è¯ç¹«ã€‚
 
 For questions or suggestions, please reach out via GitHub Issues.
