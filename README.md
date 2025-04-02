@@ -4,7 +4,7 @@ YOLOv11 Aimbot
 
 聯繫方式 Contact: xandy168@gmail.com 
 
-源代碼&執行檔下載：https://1drv.ms/f/c/2a09a0ec12e1b46d/EpzEl292dkhNu4VqSZcoN8oBhjrd612QAJMBt_fhwo7wgQ?e=udnZ2x
+源代碼&執行檔下載：https://1drv.ms/u/c/2a09a0ec12e1b46d/ESKjieoU0WtOt1xJqEGF9RwBqLzMaw3SV9lbtLocuFIQ3A?e=iPa7j0
 
 PYTHON 打包成 exe執行檔: pyinstaller CSGO.py
 
