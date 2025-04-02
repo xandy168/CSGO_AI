@@ -5,7 +5,8 @@ import cv2
 from PIL import ImageGrab
 import pyautogui
 import keyboard
-from ultralytics import YOLO  # 導入 YOLOv11
+from ultralytics import YOLO
+import torch
 
 # 全局變數：控制描準功能的開關
 aimbot_enabled = False
@@ -25,11 +26,28 @@ def toggle_aimbot_off():
 keyboard.add_hotkey("ctrl+q", toggle_aimbot_on)
 keyboard.add_hotkey("ctrl+w", toggle_aimbot_off)
 
-# 初始化 YOLOv11 模型
-print("載入 YOLOv11 模型....")
+# 檢查並優先使用 GPU (CUDA)
+print("檢查 CUDA 可用性...")
+if not torch.cuda.is_available():
+    print("錯誤: CUDA 不可用，將回退到 CPU 模式，這將顯著降低性能。")
+    print("請確認以下項目：")
+    print("1. 是否有 NVIDIA GPU 並已安裝最新驅動程式 (檢查 nvidia-smi)。")
+    print("2. 是否已安裝 CUDA Toolkit (檢查 nvcc --version)。")
+    print("3. 是否已安裝 cuDNN。")
+    print("4. 是否安裝支援 CUDA 的 PyTorch (檢查 torch.__version__)。")
+    device = torch.device("cpu")
+    print("使用設備: CPU")
+else:
+    device = torch.device("cuda")
+    print(f"CUDA 可用，使用 GPU: {torch.cuda.get_device_name(0)}")
+    print(f"CUDA 版本: {torch.version.cuda}")
+    print(f"PyTorch 版本: {torch.__version__}")
+    torch.cuda.set_device(0)  # 明確指定使用第一個 GPU
+
+# 初始化 YOLOv11 模型並移動到 GPU
+print("載入 YOLOv11 模型到 GPU...")
 try:
-    # 使用 Ultralytics 的 YOLOv11 預訓練模型（可選擇不同版本，如 yolo11n.pt, yolo11s.pt 等）
-    model = YOLO("yolo11n.pt")  # 假設權重文件已下載
+    model = YOLO("yolo11n.pt").to(device)  # 將模型載入指定設備
     print("模型載入成功.")
 except Exception as e:
     print(f"載入模型時發生錯誤: {e}")
@@ -38,7 +56,7 @@ except Exception as e:
 
 # 設置參數
 confidence = 0.5  # 置信度閾值
-inp_dim = 640     # YOLOv11 默認輸入分辨率（可根據需要調整）
+inp_dim = 640     # YOLOv11 默認輸入分辨率
 
 # 動態調整截圖範圍和滑鼠縮放係數根據顯示器解析度
 screen_width, screen_height = pyautogui.size()
@@ -72,8 +90,12 @@ while True:
         frame = ImageGrab.grab((0, 32, capture_width, 32 + capture_height))
         frame = cv2.cvtColor(np.array(frame), cv2.COLOR_RGB2BGR)
 
-        # 使用 YOLOv11 進行目標檢測
-        results = model.predict(frame, conf=confidence, imgsz=inp_dim, verbose=False)
+        # 將圖像數據轉換為 PyTorch 張量並移動到 GPU
+        frame_tensor = torch.from_numpy(frame).to(device).permute(2, 0, 1).float() / 255.0
+        frame_tensor = frame_tensor.unsqueeze(0)  # 添加批次維度
+
+        # 使用 YOLOv11 進行目標檢測（優先在 GPU 上運行）
+        results = model.predict(frame, conf=confidence, imgsz=inp_dim, verbose=False, device=device)
 
         # 處理檢測結果
         if aimbot_enabled and len(results) > 0:
@@ -87,7 +109,7 @@ while True:
             min_dist = float("inf")
             target_box = None
             for box in person_detections:
-                x1, y1, x2, y2 = box.xyxy[0].tolist()  # 檢測框座標
+                x1, y1, x2, y2 = box.xyxy[0].cpu().tolist()  # 將座標移回 CPU 進行計算
                 center_x = (x1 + x2) / 2
                 center_y = (y1 + y2) / 2
                 dist = ((center_x - MouseX) ** 2 + (center_y - MouseY) ** 2) ** 0.5
@@ -111,7 +133,7 @@ while True:
                 C = time.time()
                 print(f"移動時間: {B-A:.3f}s, 點擊時間: {C-B:.3f}s")
 
-        time.sleep(0.2)  # 控制迴圈速度
+        time.sleep(0.01) # 控制迴圈速度
 
     except Exception as e:
         print(f"運行時錯誤: {e}")
