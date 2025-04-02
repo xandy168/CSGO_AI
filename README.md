@@ -4,7 +4,7 @@ YOLOv11 Aimbot
 
 聯繫方式 Contact: xandy168@gmail.com 
 
-源代碼&執行檔下載：https://1drv.ms/f/c/2a09a0ec12e1b46d/EmGdKxHxmO9MqpfHHQM4OugBO0_4Ully5dcgEErOwDDdgg?e=2TGX0T
+源代碼&執行檔下載：https://1drv.ms/f/c/2a09a0ec12e1b46d/EmGdKxHxmO9MqpfHHQM4OugBw1F_Ak1rulp8J4H9PdM9PA?e=9ktjrv
 
 使用說明：下載程式後直接執行CSGO.EXE即可於遊戲中使用，按下Ctrl+Q啟動描準功能，按下Ctrl+W關閉描準功能。
 
